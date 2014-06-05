@@ -32,3 +32,4 @@ For security reasons the URL should be really hard to guess and should ideally o
 ##Possible features
 
 * Setting a Status: Draft/Published in meta which gets parsed before html is created.
+* Send a header response to Draft so it has a reference where the document is published.
