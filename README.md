@@ -18,11 +18,13 @@ For security reasons the URL should be really hard to guess and should ideally o
 
 ##Advantages
 
+* Can publish markdown files to the content directory.
 * Draft keeps track of revisions of documents which is really nice for writing copy and allows for collaboration.
 * Can save snippets so that you can reuse Meta across documents.
+* Publishing revisons to a document from Draft works so long as it has the same name and filepath.
 
 ##Limitations
 
-* Can publish files from Draft with spaces (but can clean that up in Phile).
-* Can only publish to one folder (maybe Phile can determine filename?)
+* Can publish files from Draft with spaces which will break the URL (but could probably clean that up in this plugin).
+* Can only publish to one folder (maybe Phile can determine the structure from the filename or from the meta data?)
 * Can't unpublish or delete files.
