@@ -1,0 +1,21 @@
+{
+	"name": "phile/draft",
+	"type": "phile-plugin",
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": "Allow Draft to publish documents to a Phile instance",
+    "homepage": "https://github.com/herbdool/phileDraft",
+    "keywords": ["cms","phile","content"],
+    "authors": [
+        {
+            "name": "Herb v/d Dool",
+            "email": "herb@3speedhub.com",
+            "homepage": "http://github.io/herbdool",
+            "role": "Developer"
+        }
+    ],
+	"require": {
+        "phile-cms/phile": "1.0.0",
+        "phile-cms/plugin-installer-plugin": "1.0.0"
+	}
+}
