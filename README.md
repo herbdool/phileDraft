@@ -28,3 +28,7 @@ For security reasons the URL should be really hard to guess and should ideally o
 * Can publish files from Draft with spaces which will break the URL (but could probably clean that up in this plugin).
 * Can only publish to one folder (maybe Phile can determine the structure from the filename or from the meta data?)
 * Can't unpublish or delete files.
+
+##Possible features
+
+* Setting a Status: Draft/Published in meta which gets parsed before html is created.
