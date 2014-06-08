@@ -1,7 +1,9 @@
 PhileCMS Draft tool plugin
 ==========================
 
-Allows publishing of Markdown files from [Draft](http://draftin.com) to your [Phile CMS](https://github.com/PhileCMS/Phile) install. It's borrowed from  * From Zvonko Biškup's [pico_draft plugin](https://github.com/codeforest/pico_draft)
+Allows publishing of Markdown files from [Draft](http://draftin.com) to your [Phile CMS](https://github.com/PhileCMS/Phile) install. It's borrowed from  from Zvonko Biškup's [pico_draft plugin](https://github.com/codeforest/pico_draft). 
+
+Requires at least the 1.0.0 release of PhileCMS.
 
 ## 1. Installation
 
