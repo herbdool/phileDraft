@@ -30,7 +30,7 @@ class Plugin extends \Phile\Plugin\AbstractPlugin implements \Phile\Gateway\Even
 				$name = strtolower($payload->name);
                                 $name = str_replace(" ","-",$name);
                                 $fileName = $name . CONTENT_EXT;
-				@file_put_contents(CONTENT_DIR . $fileName, $payload->content);
+				@file_put_contents(CONTENT_DIR . $this->settings['publish_dir'] . "/" . $fileName, $payload->content);
 			}
 			exit;
 		}
